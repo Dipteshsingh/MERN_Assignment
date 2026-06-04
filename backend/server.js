@@ -16,7 +16,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://mern-assignment-1-ulxn.onrender.com"
+      "*"
     ],
     credentials: true,
   })
