@@ -3,7 +3,7 @@ import axios from "axios";
 import { useAuth } from "../context/AuthContext";
 
 const Dashboard = () => {
-  const baseUrl = "https://mern-assignment-3-ric0.onrender.com"
+  const baseUrl = "https://mern-assignment-4-e1k0.onrender.com"
 
   const [tasks, setTasks] = useState([]);
   const [groupedTasks, setGroupedTasks] = useState({});
