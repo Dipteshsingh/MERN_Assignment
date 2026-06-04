@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 
 const Upload = () => {
-  const baseUrl = "https://mern-assignment-4-e1k0.onrender.com"
+  const baseUrl = "https://mern-assignment-7.onrender.com"
 
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
