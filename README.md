@@ -228,7 +228,7 @@ http://localhost:5173
 Use the following credentials to login:
 
 ```text
-Email: 123@gmail.com
+Email: admintest.com
 Password: 12345
 ```
 
@@ -250,7 +250,7 @@ Request Body:
 
 ```json
 {
-  "email": "123@gmail.com",
+  "email": "admintestgmail.com",
   "password": "12345"
 }
 ```
