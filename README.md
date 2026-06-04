@@ -228,7 +228,7 @@ http://localhost:5173
 Use the following credentials to login:
 
 ```text
-Email: admintest.com
+Email: admintest@gmail.com
 Password: 12345
 ```
 
@@ -250,7 +250,7 @@ Request Body:
 
 ```json
 {
-  "email": "admintestgmail.com",
+  "email": "admintest@gmail.com",
   "password": "12345"
 }
 ```
@@ -360,10 +360,11 @@ This ensures leads are distributed as evenly as possible among all available age
 * Export distributed leads
 
 ---
-
+# Live Demonstration: https://mern-assignment-0.onrender.com/
 # Video Demonstration
 
-Google Drive Video Link:
+Google Drive Video Link:https://drive.google.com/file/d/1H2bmWp95ZxAnvBdhJMbhj6HImwqxKPpV/view?usp=drive_link
+
 
 
 
