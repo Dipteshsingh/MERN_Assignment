@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
 const Login = () => {
-  const baseUrl = "https://mern-assignment-8cio.onrender.com"
+  const baseUrl = "https://mern-assignment-3-ric0.onrender.com"
   const navigate = useNavigate();
   const { login } = useAuth();
 
