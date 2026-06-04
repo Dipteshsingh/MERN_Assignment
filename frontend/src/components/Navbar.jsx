@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useAuth } from "../context/AuthContext";
 
 const navLinks = [
   { name: "Dashboard", path: "/dashboard", icon: "ti-layout-dashboard" },
@@ -7,9 +8,9 @@ const navLinks = [
   { name: "Upload", path: "/upload", icon: "ti-upload" },
 ];
 
-const Navbar = ({ logout, user }) => {
+const Navbar = ({ user }) => {
   const location = useLocation();
-
+  const { logout } = useAuth();
   const initials = user?.email
   ? user.email.split("@")[0].slice(0, 2).toUpperCase()
   : "U";
