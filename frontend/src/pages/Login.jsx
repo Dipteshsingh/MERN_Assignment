@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
 const Login = () => {
-  const baseUrl = "http://localhost:5000"
+  const baseUrl = "https://mern-assignment-8cio.onrender.com"
   const navigate = useNavigate();
   const { login } = useAuth();
 
