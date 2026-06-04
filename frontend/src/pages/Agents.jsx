@@ -3,7 +3,7 @@ import { useAuth } from '../context/AuthContext';
 import axios from "axios";
 
 const Agents = () => {
-  const baseUrl = "https://mern-assignment-7.onrender.com"
+  const baseUrl = "https://mern-assignment-10.onrender.com"
   const [agents, setAgents] = useState([]);
   const [loading, setLoading] = useState(false);
   const { token } = useAuth();
